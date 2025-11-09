@@ -22,15 +22,19 @@ body {
   font-weight: bold;
   margin-bottom: 10px;
   color: #f5c542;
+  text-align: center;
 }
 
 /* Turn indicator */
 .turn {
   font-size: 1.5rem;
   margin-bottom: 20px;
+  text-align: center;
 }
 .hidden {
-  display: none;
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
 }
 
 /* Theme button */
@@ -187,4 +191,27 @@ body {
 .light .btn {
   background: #ffcc00;
   color: #000;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .title {
+    font-size: 2.2rem;
+  }
+  .turn {
+    font-size: 1.2rem;
+  }
+  .game-grid {
+    grid-template-columns: repeat(3, 80px);
+    grid-gap: 10px;
+  }
+  .btn {
+    width: 80px;
+    height: 80px;
+    font-size: 2rem;
+  }
+  .modal-box {
+    width: 85%;
+    padding: 20px;
+  }
 }
