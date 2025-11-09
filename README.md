@@ -50,10 +50,6 @@ Draw conditions
 
 UI updates dynamically — win, draw, reset state
 
-📸 Demo Screenshot (optional)
-
-Add a screenshot here showing the game board UI
-
 💡 Future Enhancements
 
 🤖 Single-player mode with AI
