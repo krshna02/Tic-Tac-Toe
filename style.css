@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #1e1e2f, #121212);
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.5s, color 0.5s;
+}
+
+/* Title */
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #f5c542;
+}
+
+/* Turn indicator */
+.turn {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+.hidden {
+  display: none;
+}
+
+/* Theme button */
+.theme-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: #222;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background 0.3s;
+}
+.theme-btn:hover {
+  background: #333;
+}
+
+/* Modal */
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.modal-box {
+  background: #222;
+  color: white;
+  padding: 25px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 350px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  animation: fadeIn 0.6s ease;
+}
+
+.modal-box h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.modal-box label {
+  display: block;
+  margin: 10px 0 4px;
+}
+.modal-box input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  margin-bottom: 10px;
+}
+.start-btn {
+  width: 100%;
+  background: linear-gradient(90deg, #007bff, #00c853);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: transform 0.3s;
+}
+.start-btn:hover {
+  transform: scale(1.05);
+}
+
+/* Game board */
+.board {
+  text-align: center;
+}
+.game-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 15px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.btn {
+  width: 100px;
+  height: 100px;
+  font-size: 2.5rem;
+  border-radius: 12px;
+  border: 2px solid #444;
+  background: #f5c542;
+  color: #222;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.3s;
+}
+.btn:hover {
+  transform: scale(1.05);
+  background: #ffd166;
+}
+.btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.8;
+}
+
+/* Buttons */
+.reset-btn,
+.new-btn {
+  background: #444;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.reset-btn:hover,
+.new-btn:hover {
+  background: #666;
+}
+
+/* Message */
+.msg-container {
+  margin-bottom: 15px;
+}
+.msg {
+  font-size: 1.5rem;
+  color: #00e676;
+  margin-bottom: 8px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Light Theme */
+.light {
+  background: #f8f8f8;
+  color: #222;
+}
+.light .modal-box {
+  background: #fff;
+  color: #000;
+}
+.light .btn {
+  background: #ffcc00;
+  color: #000;
+}
