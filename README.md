@@ -5,9 +5,6 @@ This project is simple yet polished, featuring player name input, a clean UI, a 
 
 ---
 
-## 🚀 Live Demo
-
-👉 **Play the game here:** [Tic Tac Toe - Krishna Sharma](https://tic-tac-toe-krishna.vercel.app/)
 
 ---
 
@@ -34,11 +31,6 @@ This project is simple yet polished, featuring player name input, a clean UI, a 
 
 ---
 
-## 📸 Screenshot
-
-> 🖼️ _Add your project screenshot here (optional)_  
-> Example:
-> ![Tic Tac Toe Screenshot](./screenshot.png)
 
 ---
 
