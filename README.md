@@ -1,63 +1,49 @@
-🎮 Tic-Tac-Toe Game
+# 🎮 Tic Tac Toe
 
-A clean and responsive Tic-Tac-Toe game built using HTML, Tailwind CSS, and Vanilla JavaScript.
-The game allows two players to play turn-by-turn, detects wins and draws in real-time, and provides a restart option — all inside a sleek, minimal UI powered by Tailwind.
+A modern, responsive **Tic Tac Toe** game built using **HTML, CSS, and JavaScript** — no frameworks, no dependencies.  
+This project is simple yet polished, featuring player name input, a clean UI, a dark/light theme toggle, and smooth animations.
 
-✨ Features
+---
 
-✅ Two-player mode (X vs O)
+## 🚀 Live Demo
 
-✅ Real-time win & draw detection logic
+👉 **Play the game here:** [Tic Tac Toe - Krishna Sharma](https://tic-tac-toe-krishna.vercel.app/)
 
-✅ Highlight winning cells
+---
 
-✅ Clean, responsive UI with Tailwind CSS
+## 🧠 Features
 
-✅ Restart / reset game button
+✅ **Two Player Mode** — Enter names for both players before starting  
+✅ **Dynamic Turn Indicator** — Displays whose turn it is  
+✅ **Winner Detection** — Highlights winning cells with a glow effect  
+✅ **Draw Detection** — Detects when all cells are filled  
+✅ **Reset & New Game Options** — Restart anytime  
+✅ **Dark / Light Theme** — Toggle between two themes instantly  
+✅ **Responsive Layout** — Works seamlessly on mobile and desktop  
 
-✅ Lightweight — no frameworks, just pure JS
+---
 
-🛠️ Tech Stack
-Technology	Used For
-HTML	Game layout structure
-Tailwind CSS	Modern styling & responsive design
-JavaScript	Game logic (turns, win/draw detection, UI updates)
-📂 Project Structure
-/
-│── tto.html
-└── tto.js
+## 🛠️ Tech Stack
 
-🚀 How to Run
+| Technology | Purpose |
+|-------------|----------|
+| **HTML5** | Structure of the app |
+| **CSS3** | Styling and layout |
+| **JavaScript (ES6)** | Game logic and interactions |
+| **Vercel** | Hosting and deployment |
 
-Clone the repo:
+---
 
-git clone "https://github.com/krshna02/Tic-Tac-Toe/"
+## 📸 Screenshot
 
+> 🖼️ _Add your project screenshot here (optional)_  
+> Example:
+> ![Tic Tac Toe Screenshot](./screenshot.png)
 
-Open index.html in any browser — no installation needed.
+---
 
-🔧 How It Works
+## 🧾 How to Run Locally
 
-Players click a cell to place X or O
-
-JavaScript checks:
-
-Current turn
-
-Win patterns (rows, columns, diagonals)
-
-Draw conditions
-
-UI updates dynamically — win, draw, reset state
-
-💡 Future Enhancements
-
-🤖 Single-player mode with AI
-
-🧠 Minimax Algorithm for unbeatable AI
-
-🙌 Author
-
-Krishna Sharma
-Frontend & Software Developer
-
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/krshna02/tic-tac-toe.git
