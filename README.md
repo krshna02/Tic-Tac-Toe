@@ -64,5 +64,4 @@ Add a screenshot here showing the game board UI
 
 Krishna Sharma
 Frontend & Software Developer
-🔗 LinkedIn
- • GitHub
+
