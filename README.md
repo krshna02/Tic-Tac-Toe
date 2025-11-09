@@ -1,41 +1,35 @@
 # 🎮 Tic Tac Toe
 
-A modern, responsive **Tic Tac Toe** game built using **HTML, CSS, and JavaScript** — no frameworks, no dependencies.  
-This project is simple yet polished, featuring player name input, a clean UI, a dark/light theme toggle, and smooth animations.
+A modern, responsive **Tic Tac Toe** game built using **HTML, CSS, and JavaScript** — featuring player names, dark/light themes, and a smooth UI.
 
 ---
 
+## 🚀 Live Demo
+
+🎯 **Play the Game Here:**  
+👉 [Tic Tac Toe - Live on Vercel](https://tic-tac-toe-five-snowy-95.vercel.app/)
 
 ---
 
 ## 🧠 Features
-
-✅ **Two Player Mode** — Enter names for both players before starting  
-✅ **Dynamic Turn Indicator** — Displays whose turn it is  
-✅ **Winner Detection** — Highlights winning cells with a glow effect  
-✅ **Draw Detection** — Detects when all cells are filled  
-✅ **Reset & New Game Options** — Restart anytime  
-✅ **Dark / Light Theme** — Toggle between two themes instantly  
-✅ **Responsive Layout** — Works seamlessly on mobile and desktop  
+✅ Two-player name input  
+✅ Turn indicator  
+✅ Winner/draw detection  
+✅ Theme toggle (dark/light)  
+✅ Responsive layout for mobile  
+✅ Reset and new game options  
 
 ---
 
-## 🛠️ Tech Stack
-
-| Technology | Purpose |
-|-------------|----------|
-| **HTML5** | Structure of the app |
-| **CSS3** | Styling and layout |
-| **JavaScript (ES6)** | Game logic and interactions |
-| **Vercel** | Hosting and deployment |
+## 🧩 Tech Stack
+- HTML5  
+- CSS3  
+- JavaScript (ES6)  
+- Vercel (Deployment)
 
 ---
 
-
----
-
-## 🧾 How to Run Locally
-
-1. Clone the repository:
+## 💻 How to Run Locally
+1. Clone this repository  
    ```bash
    git clone https://github.com/krshna02/tic-tac-toe.git
