@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tic Tac Toe | Krishna</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/906/906334.png">
+</head>
+
+<body>
+  <!-- Theme Toggle -->
+  <button id="theme-toggle" class="theme-btn">🌙</button>
+
+  <h1 class="title">Tic Tac Toe</h1>
+  <h2 id="turn-indicator" class="turn hidden">Turn:</h2>
+
+  <!-- Player Input Modal -->
+  <div id="player-modal" class="modal">
+    <div id="modal-box" class="modal-box">
+      <h2>Enter Player Names</h2>
+      <label>Player 1 (O):</label>
+      <input id="player1" type="text" placeholder="Enter Player 1 name" />
+      <label>Player 2 (X):</label>
+      <input id="player2" type="text" placeholder="Enter Player 2 name" />
+      <button id="start-game" class="start-btn">🎮 Start Game</button>
+    </div>
+  </div>
+
+  <!-- Game Board -->
+  <div id="game-board" class="board hidden">
+    <div class="msg-container hidden">
+      <h2 class="msg"></h2>
+      <button class="new-btn">🔄 New Game</button>
+    </div>
+
+    <div class="game-grid">
+      <button class="btn"></button>
+      <button class="btn"></button>
+      <button class="btn"></button>
+      <button class="btn"></button>
+      <button class="btn"></button>
+      <button class="btn"></button>
+      <button class="btn"></button>
+      <button class="btn"></button>
+      <button class="btn"></button>
+    </div>
+
+    <button class="reset-btn">Reset Game</button>
+  </div>
+
+  <script src="tto.js"></script>
+</body>
+</html>
