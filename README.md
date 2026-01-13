@@ -3,14 +3,11 @@
 A modern, responsive **Tic Tac Toe** game built using **HTML, CSS, and JavaScript** — featuring player names, dark/light themes, and a smooth UI.
 
 ---
-
 ## 🚀 Live Demo
 
 🎯 **Play the Game Here:**  
 👉 [Tic Tac Toe - Live on Vercel](https://tic-tac-toe-five-snowy-95.vercel.app/)
-
 ---
-
 ## 🧠 Features
 ✅ Two-player name input  
 ✅ Turn indicator  
